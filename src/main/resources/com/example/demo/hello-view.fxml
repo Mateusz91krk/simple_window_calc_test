@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="350.0" prefWidth="260.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label fx:id="welcomeText" />
+   <HBox>
+      <children>
+          <Button onAction="#onHelloButtonClick1" prefHeight="40.0" prefWidth="40.0" text="1">
+            <HBox.margin>
+               <Insets left="20.0" right="10.0" />
+            </HBox.margin>
+            <font>
+               <Font size="18.0" />
+            </font></Button>
+          <Button onAction="#onHelloButtonClick2" prefHeight="40.0" prefWidth="40.0" text="2">
+            <HBox.margin>
+               <Insets right="10.0" />
+            </HBox.margin>
+            <font>
+               <Font size="18.0" />
+            </font></Button>
+          <Button onAction="#onHelloButtonClick3" prefHeight="40.0" prefWidth="40.0" text="3">
+            <HBox.margin>
+               <Insets right="10.0" />
+            </HBox.margin>
+            <font>
+               <Font size="18.0" />
+            </font></Button>
+          <Button onAction="#onHelloButtonClick10" prefHeight="40.0" prefWidth="40.0" text="/">
+            <HBox.margin>
+               <Insets right="20.0" />
+            </HBox.margin>
+            <font>
+               <Font size="18.0" />
+            </font></Button>
+      </children>
+   </HBox>
+    <HBox>
+        <children>
+            <Button onAction="#onHelloButtonClick4" prefHeight="40.0" prefWidth="40.0" text="4">
+            <HBox.margin>
+               <Insets left="20.0" right="10.0" />
+            </HBox.margin>
+            <font>
+               <Font size="18.0" />
+            </font></Button>
+            <Button onAction="#onHelloButtonClick5" prefHeight="40.0" prefWidth="40.0" text="5">
+            <HBox.margin>
+               <Insets right="10.0" />
+            </HBox.margin>
+            <font>
+               <Font size="18.0" />
+            </font></Button>
+            <Button onAction="#onHelloButtonClick6" prefHeight="40.0" prefWidth="40.0" text="6">
+            <HBox.margin>
+               <Insets right="10.0" />
+            </HBox.margin>
+            <font>
+               <Font size="18.0" />
+            </font></Button>
+            <Button onAction="#onHelloButtonClick11" prefHeight="40.0" prefWidth="40.0" text="*">
+            <HBox.margin>
+               <Insets right="20.0" />
+            </HBox.margin>
+            <font>
+               <Font size="18.0" />
+            </font></Button>
+        </children>
+    </HBox>
+    <HBox>
+        <children>
+            <Button onAction="#onHelloButtonClick7" prefHeight="40.0" prefWidth="40.0" text="7">
+            <HBox.margin>
+               <Insets left="20.0" right="10.0" />
+            </HBox.margin>
+            <font>
+               <Font size="18.0" />
+            </font></Button>
+            <Button onAction="#onHelloButtonClick8" prefHeight="40.0" prefWidth="40.0" text="8">
+            <HBox.margin>
+               <Insets right="10.0" />
+            </HBox.margin>
+            <font>
+               <Font size="18.0" />
+            </font></Button>
+            <Button onAction="#onHelloButtonClick9" prefHeight="40.0" prefWidth="40.0" text="9">
+            <HBox.margin>
+               <Insets right="10.0" />
+            </HBox.margin>
+            <font>
+               <Font size="18.0" />
+            </font></Button>
+            <Button onAction="#onHelloButtonClick12" prefHeight="40.0" prefWidth="40.0" text="-">
+            <HBox.margin>
+               <Insets right="20.0" />
+            </HBox.margin>
+            <font>
+               <Font size="18.0" />
+            </font></Button>
+        </children>
+    </HBox>
+    <HBox>
+        <children>
+            <Button onAction="#onHelloButtonClick13" prefHeight="40.0" prefWidth="90.0" text="0">
+            <HBox.margin>
+               <Insets left="20.0" right="10.0" />
+            </HBox.margin>
+            <font>
+               <Font size="18.0" />
+            </font></Button>
+            <Button onAction="#onHelloButtonClick14" prefHeight="40.0" prefWidth="40.0" text="+">
+            <HBox.margin>
+               <Insets right="10.0" />
+            </HBox.margin>
+            <font>
+               <Font size="18.0" />
+            </font></Button>
+            <Button onAction="#onHelloButtonClick15" prefHeight="40.0" prefWidth="40.0" text="=">
+            <HBox.margin>
+               <Insets right="20.0" />
+            </HBox.margin>
+            <font>
+               <Font size="18.0" />
+            </font></Button>
+        </children>
+    </HBox>
+    <Button onAction="#onHelloButtonClick0" prefHeight="40.0" prefWidth="60.0" text="Close">
+      <font>
+         <Font size="14.0" />
+      </font></Button>
+</VBox>
